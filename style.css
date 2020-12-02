@@ -1,0 +1,147 @@
+/* Start stil <html> */
+
+html /*selector CSS de tip*/{
+	background-color: #e4eded; /*definirea culorii de fundal a elementului <html>*/
+}
+
+* /*selector CSS universal*/{
+	box-sizing: border-box; /*definirea calcularii spatiului intern si a cadrului tuturor elementelor din pagina*/
+}
+
+/* Stop stil <html> */
+
+/* Start stil <body> */
+
+body /*selector CSS de tip*/{
+	width: 960px; /*definirea latimii elementului <body>*/
+	margin: 0 auto; /*centrarea elementului <body>*/
+}
+
+/* Stop stil <body> */
+
+/* Start stil <header> */
+
+#header /*selector CSS de ID*/{
+	display: inline; /*aranjarea elementelor din cadrul elementului <header>*/
+	text-align: center; /*centrarea elementului <header>*/
+	text-transform: uppercase; /*transformarea textului in majuscule a elementului <header>*/
+	font-family: 'Simonetta', cursive; /*definirea fontului de familie a elementului <header>*/
+	font-size: 1.5em; /*definirea marimii fontului de familie a elementului <header>*/
+	word-spacing: 25px; /*definirea spatiului dintre cuvinte in cadrul elementului <header>*/
+}
+
+.logo /*selector CSS de tip*/{
+	float: left; /*pozotionarea elementului <figure> in stanga elementului <h1>*/
+}
+
+#header span /*selector CSS descendent*/{ 
+	font-family: serif; /*definirea fontului de familie a elementului <span>*/
+	font-size: 0.5em; /*definirea marimii fontului de familie a elementului <span>*/
+}
+
+/* Stop stil <header> */
+
+/* Start stil <hr> */
+
+hr /*selector CSS de tip*/{
+	width: 100%; /*definirea latimii elementului <hr>*/
+	border: 1px solid hsl(180°, 0%, 0%); /* definirea grosimii, a stilului si a colorii elementului <hr>*/
+	border-radius: 50%; /*creearea unui efect vizual la elementul <hr> prin rotunjire colturilor elementului*/
+}
+
+/* Stop stil <hr> */
+
+/* Start stil <nav> */
+
+.nav /*selector CSS de clasa*/{
+	width: 260px; /*definirea latimii sectiunii de navigare*/
+	float: left; /*pozitionarea sectiunii de navigare in partea stanga a paginii*/
+	box-sizing: border-box; /*definirea calcularii spatiului intern si a cadrului sectiunii de navigare*/
+	padding: 10px 10px 10px 10px; /*definirea spatiului intern a sectiunii de navigare*/
+	margin-top: 20px; /*definirea spatiului extern din partea de sus a sectiunii de navigare*/
+	background-color: #000000; /*definirea culorii de fundal a elementelor cu clasa "nav"*/
+	border-radius: 25px; /*creearea unui efect vizual la culoarea de fundal a elementelor cu clasa "nav"*/
+}
+
+.nav a /*selector CSS descendent*/{
+	text-decoration: none; /*dezactivarea setarii implicite pentru elementele <a>*/
+}
+
+.nav ul /*selector CSS descendent*/{
+	list-style-type: lower-greek; /*definirea stilului caracterelor pentru elementele <ul>*/
+}
+
+.nav li /*selector CSS descendent*/{
+	font-family: font-family: 'Castoro', serif; /*definirea fontului de familie a elementelor <li>*/
+	font-size: 1.5em; /*definirea marimii fontului de familie a elementelor <li>*/
+	line-height: 50px; /*definirea spatiilor dintre linii a elementelor <li>*/
+	color: #e4eded; /*definirea culorii de text a elementelor <li>*/
+}
+
+/* Stop stil <nav> */
+
+/* Start stil <section> */
+
+.section /*selector CSS de clasa*/{
+	width: 700px; /*definirea latimii sectiunii principale*/
+	float: left; /*pozitionarea sectiunii principale in partea dreapta a paginii*/
+	box-sizing: border-box; /*definirea spatiului intern si a cadrului sectiunii principale*/
+	padding-left: 20px; /*definirea spatiului intern*/
+}
+
+.title /*selector CSS de clasa*/{
+	text-decoration: underline;
+	text-align: center; /*centrarea elementelor cu clasa "title"*/
+}
+
+.image /*selector CSS de clasa*/{
+	text-align: center; /*centrarea elementelor cu clasa "image"*/
+}
+
+img /*selector CSS de tip*/{
+	border-radius: 3%; /*creearea unui efect vizual la elementul <img> prin rotunjirea colturilor elementului*/
+}
+
+.paragraph p /*selector CSS descendent*/{
+	font-family: 'Sansita Swashed', cursive; /*definirea fontului de familie a elementelor <p>*/
+	font-size: 1.5em; /*definirea marimii fontului de familie a elementelor <p>*/
+	text-align: justify; /*pozitionarea elememtelor <p>*/
+}
+
+.table table /*selector CSS descendent*/{
+	border: none; /*definirea cadrului elementului <table>*/
+	width: 100%; /*definirea incadrarii in pagina a elementului <table>*/
+	margin-bottom: 20px; /*definirea spatiului de jos a elementului <table>*/
+}
+
+th /*selector CSS de tip*/{
+	background-color: #3f5b8a; /*definirea culorii de fundal a elementelor <th>*/
+}
+
+td /*selector CSS de tip*/{
+	padding-left: 10px; /*definirea spatiului intern a elementelor <td>*/
+}
+
+.tr /*selector CSS de clasa*/{
+	background-color: #a9bbd9; /*definirea culorii de fundal a elementelor <tr> cu clasa "tr"*/
+}
+
+.font /*selector CSS de clasa*/{
+	font-family: 'Playfair Display', serif; /*definirea fontului de familie a elementelor <p> cu clasa "font"*/
+}
+
+.center /*selector CSS de clasa*/{
+	text-align: center; /*centrarea elementelor <td> cu clasa "center"*/
+}
+
+/* Stop stil <section> */
+
+/* Start stil <footer> */
+
+#footer /*selector CSS de ID*/{
+	text-align: center; /*centrarea elementului cu clasa "footer"*/
+	margin-top: 20px; /*definirea spatiului extern de sus a elementului cu clasa "footer"*/
+	font-family: 'Major Mono Display', monospace; /*definirea fontului de familie a elementului cu clasa "footer"*/
+}
+
+/* Stop stil <footer> */
